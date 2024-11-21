@@ -75,7 +75,6 @@ for (let i = 1; i <= 100; i++) {
 
 // task 9 
 let randomNumber100;
-
 do {
     randomNumber100 = Math.floor(Math.random() * 100) + 1;
     console.log(randomNumber100);
@@ -108,12 +107,13 @@ console.log("The sum of all numbers between 1 and 1000 divisible by 3 or 5 is:",
 
 // task 12
 let divisibleSum = 0;
-
-for (let m = 1; m < 1000; m++) {
-    if (m % 15 === 0) {
-        divisibleSum += m;
+for (let m = 1; m <= 1000; m++) { 
+    if (m % 16 == 0) {
+        divisibleSum += m;         
     }
-}
+} 
+
+
 console.log("The sum of all numbers between 1 and 1000 divisiblSum by 3 or 5 is:", divisibleSum);
 
 // task 13 
