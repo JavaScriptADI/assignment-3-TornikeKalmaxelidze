@@ -74,8 +74,8 @@ for (let i = 1; i <= 100; i++) {
 
 
 // task 9 
+let randomNumber100;
 
-let randomNumber100
 do {
     randomNumber100 = Math.floor(Math.random() * 100) + 1;
     console.log(randomNumber100);
@@ -107,7 +107,7 @@ for (let t = 1; t < 1000; t++) {
 console.log("The sum of all numbers between 1 and 1000 divisible by 3 or 5 is:", totalSum);
 
 // task 12
-let divisibleSum = 0
+let divisibleSum = 0;
 
 for (let m = 1; m < 1000; m++) {
     if (m % 15 === 0) {
@@ -143,7 +143,8 @@ for (let i = 0; i < str.length; i++) {
         break;
     }
 }
-// task 15 
-// i dont have any idea 
+// task 15
+// i dont have any idea
 
 // Let's explain in the lesson.
+
